@@ -120,24 +120,25 @@ a:focus {
   text-shadow: 0 3px rgba(0, 0, 0, 0.1);
   color: #fff;
 }
-#contact .box {
+#contact,#myaccount .box {
   background-color: #222;
   color: #999;
 }
-#contact .box h1,
-#contact .box h2,
-#contact .box h3 {
+#contact,#myaccount .box h1,
+#contact,#myaccount .box h2,
+#contact,#myaccount .box h3 {
   color: #fff;
 }
-#contact .box a {
+#contact,#myaccount .box a {
   color: #999;
 }
-#contact .box a:hover {
+#contact,#myaccount .box a:hover {
   color: #52b6ec;
 }
-#contact .box input[type="text"],
-#contact .box input[type="email"],
-#contact .box textarea {
+#contact,#myaccount .box input[type="text"],
+#contact,#myaccount .box input[type="password"],
+#contact,#myaccount .box input[type="email"],
+#contact,#myaccount .box textarea {
   background-color: #111;
   border: 0;
   -webkit-transition: 300ms;
@@ -145,9 +146,10 @@ a:focus {
   -o-transition: 300ms;
   transition: 300ms;
 }
-#contact .box input[type="text"]:focus,
-#contact .box input[type="email"]:focus,
-#contact .box textarea:focus {
+#contact,#myaccount .box input[type="text"]:focus,
+#contact,#myaccount .box input[type="password"]:focus,
+#contact,#myaccount .box input[type="email"]:focus,
+#contact,#myaccount .box textarea:focus {
   background-color: #000;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
